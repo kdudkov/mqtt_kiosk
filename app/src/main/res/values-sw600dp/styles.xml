@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="main_cell_caption">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/title_bg_color</item>
+    </style>
+    <style name="main_cell">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textSize">92sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/default_data</item>
+        <item name="android:text">600</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="grid_cell_caption">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">2sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/title_bg_color</item>
+    </style>
+    <style name="grid_cell">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">2sp</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/default_data</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="small_cell">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/status_bg</item>
+    </style>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Screen">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Main block">
+        <EditTextPreference android:title="Caption"
+            android:key="caption1"
+            android:defaultValue="Room temperature"
+            android:persistent="true"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic1"
+            android:defaultValue="esp01/+/sensors/dsw1"
+            android:persistent="true"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format1"
+            android:defaultValue="%.1f °C"
+            android:persistent="true"
+            android:autoText="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 2">
+        <EditTextPreference android:title="Caption"
+            android:key="caption2"
+            android:defaultValue="улица"
+            android:persistent="true"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic2"
+            android:defaultValue="weather/spb/temperature"
+            android:persistent="true"
+            android:autoText="true"/>
+
+        <EditTextPreference android:title="Format"
+            android:key="format2"
+            android:defaultValue="%.1f °C"
+            android:persistent="true"
+            android:autoText="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 3">
+        <EditTextPreference android:title="Caption"
+            android:key="caption3"
+            android:defaultValue="давление"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic3"
+            android:defaultValue="weather/spb/pressure"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format3"
+            android:defaultValue="%.1f mbar"
+            android:autoText="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 4">
+        <EditTextPreference android:title="Caption"
+            android:key="caption4"
+            android:defaultValue="ветер"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic4"
+            android:defaultValue="weather/spb/wind_speed"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format4"
+            android:defaultValue="%.1f"
+            android:autoText="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 5">
+        <EditTextPreference android:title="Caption"
+            android:key="caption5"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic5"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format5"
+            android:defaultValue="%s"
+            android:autoText="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 6">
+        <EditTextPreference android:title="Caption"
+            android:key="caption6"
+            android:defaultValue="коридор"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic6"
+            android:defaultValue="x10/a1"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format6"
+            android:defaultValue="%s"
+            android:autoText="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Block 7">
+        <EditTextPreference android:title="Caption"
+            android:key="caption7"
+            android:defaultValue="комната"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Topic"
+            android:key="topic7"
+            android:defaultValue="x10/a2"
+            android:autoText="true"/>
+        <EditTextPreference android:title="Format"
+            android:key="format7"
+            android:defaultValue="%s"
+            android:autoText="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>
